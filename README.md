@@ -13,8 +13,7 @@ connection, respectively.
 ### .env.backend
 Create a file named .env.backend in the root of your project with the following configuration:
 
-```
-dotenv
+``` dotenv
 CORS_ORIGIN=http://localhost:3000               # The allowed origin for CORS requests
 POSTGRES_USER=youruser                          # Your PostgreSQL username
 POSTGRES_PASSWORD=yourpassword                  # Your PostgreSQL password
@@ -30,8 +29,7 @@ SELECTED_LABEL=5                                # Label id to fetch from Discogs
 ### .env.db
 Create a separate file named .env.db in the root of your project with the following configuration:
 
-```
-dotenv
+``` dotenv
 POSTGRES_USER=youruser                     # Your PostgreSQL username
 POSTGRES_PASSWORD=yourpassword             # Your PostgreSQL password
 POSTGRES_DB=yourdb                         # The name of your PostgreSQL database
@@ -56,13 +54,11 @@ Open your browser and go to http://localhost:3000 to view the application
 ## Backend Tests
 Navigate to your Go backend directory:
 
-```
-bash
+``` bash
 cd backend
 ```
 Run the following command to execute tests:
-```
-bash
+``` bash
 go test ./...
 ```
 
@@ -70,12 +66,10 @@ go test ./...
 
 Navigate to your Go backend directory:
 
-```
-bash
+``` bash
 cd tone_addiction_frontend
 ```
 Run the following command to execute tests:
-```
-bash
+``` bash
 npm test
 ```
