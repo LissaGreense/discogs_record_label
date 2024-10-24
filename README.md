@@ -40,8 +40,7 @@ POSTGRES_PORT=5432                         # The port for PostgreSQL (default is
 2. Run docker-compose
 Run the following command to build and start the services:
 
-```
-bash
+``` bash
 docker-compose up --build
 ```
 This will start your backend service and Postgres database. The React frontend will be served through Nginx.
